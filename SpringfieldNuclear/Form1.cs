@@ -35,7 +35,8 @@ namespace SpringfieldNuclear
         {
             SoundPlayer Player = new SoundPlayer (Properties.Resources.alert);
             Player.Play();
-            outputLabel.Text = "Meltdown";
+            outputLabel.Text = "boomb";
+            
             reactor1StateLabel.BackColor = Color.Red;
             reactor2StateLabel.BackColor = Color.Red;
             Refresh();
